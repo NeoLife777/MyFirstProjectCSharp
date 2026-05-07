@@ -5,9 +5,9 @@ class Program
     static void Main(string[] args)
     {
     // Создаем объекты OldPrinter, Photocopier и MultiPriner
-    OldPrinter printer = new OldPrinter();
-    Photocopier photocopier = new Photocopier();
-    MultiPrinter multiPrinter = new MultiPrinter();
+    OldPrinter printer = new OldPrinter("Canon x1");
+    Photocopier photocopier = new Photocopier("HP x2");
+    MultiPrinter multiPrinter = new MultiPrinter("Xerox x3");
 
     // Вызываем метод Print
     printer.Print("Мой важный документ");
